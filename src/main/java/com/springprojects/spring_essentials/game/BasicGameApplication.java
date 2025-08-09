@@ -1,7 +1,4 @@
-package com.springprojects.spring_essentials;
-
-import com.springprojects.spring_essentials.game.GameRunner;
-import com.springprojects.spring_essentials.game.PacmanGame;
+package com.springprojects.spring_essentials.game;
 
 public class BasicGameApplication {
     public static void main(String[] args) {

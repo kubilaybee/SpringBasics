@@ -1,10 +1,14 @@
 package com.springprojects.spring_essentials.game;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
 public class GameRunner {
 
     private GamingConsole gamingConsole;
 
-    public GameRunner(GamingConsole gamingConsole) {
+    public GameRunner(@Qualifier("SuperContraGameQualifier") GamingConsole gamingConsole) {
         this.gamingConsole = gamingConsole;
     }
 
